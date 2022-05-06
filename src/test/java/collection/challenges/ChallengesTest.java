@@ -22,7 +22,7 @@ public class ChallengesTest {
     public void uniqueValuesTest(){
 
         int[] nums = {1,2,1,3,4,6,5,6,7,3,4,2,3};
-        int[] expected = {1, 2, 3, 4, 6, 5, 7};
+        int[] expected = {1, 2, 3, 4, 5, 6, 7};
         int[] actual = challenges.uniqueValues(nums);
 
         Assert.assertTrue(actual!= null);

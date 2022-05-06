@@ -15,9 +15,12 @@ public class Challenges {
     }
 
     /*
-        Given an array nums, return the max value. If the array is empty, simply return -1
+        Given an array nums, return the max value. If the array has no element, simply return -1
     */
     public int maxFromArray(int[] nums){
+        if (nums.length == 0){
+            return -1;
+        }
         return -1;
     }
 
